@@ -1,5 +1,5 @@
 export default function Page(){
-    return <p>
+    return <p className="color-black">
         Dashboard Page
-    </p>
+    </p>;
 }
