@@ -34,10 +34,18 @@ export default function Page() {
           {/* Add Hero Images Here */}
           <Image
             src="/hero-desktop.png"
-            width={560}
-            height={620}
+            width={1000}
+            height={760}
             alt='Dashboard Project'
           />
+          <Image
+            src="/hero-mobile.png"
+            width={560}
+            height={620}
+            alt='Icon for Mobile Dashboard '
+          />
+          
+
         </div>
       </div>
     </main>
