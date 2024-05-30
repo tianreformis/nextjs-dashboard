@@ -29,6 +29,8 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
+          <Link href="/dashboard" className='flex flex-col justify-center items-center bg-blue-500 mr-60 text-white font-bold py-5 rounded-lg hover:bg-blue-400'>
+            Dashboard</Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
@@ -44,7 +46,7 @@ export default function Page() {
             height={620}
             alt='Icon for Mobile Dashboard '
           />
-          
+
 
         </div>
       </div>
